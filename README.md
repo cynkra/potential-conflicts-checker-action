@@ -20,7 +20,7 @@ jobs:
     name: potential-conflicts-checker
     runs-on: ubuntu-latest
     steps:
-      - uses: outsideris/potential-conflicts-checker-action@0.1.0
+      - uses: cynkra/potential-conflicts-checker-action@0.1.0
         with:
           ghToken: ${{ secrets.GITHUB_TOKEN }}
 ```
